@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Web Agency In Sydney | Professional Web Development</title>
+    <meta name="description" content="Leading web agency in Sydney helping businesses grow through professional web development services. Easy to use, responsive design, and fast loading websites.">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans antialiased">
+    <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
+        <nav class="container mx-auto px-6 py-4" x-data="{ isOpen: false }">
+            <div class="flex items-center justify-between">
+                <div class="text-xl font-bold tracking-tight">
+                    <a href="/" class="text-white hover:text-blue-400 transition duration-300">
+                        SydneyWeb
+                    </a>
+                </div>
+                
+                <button @click="isOpen = !isOpen" class="md:hidden focus:outline-none">
+                    <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                        <path x-show="!isOpen" d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+                        <path x-show="isOpen" d="M6.343 6.343l11.314 11.314m-11.314 0L17.657 6.343"></path>
+                    </svg>
+                </button>
+
+                <div class="hidden md:flex space-x-8">
+                    <a href="#features" class="hover:text-blue-400 transition duration-300">Features</a>
+                    <a href="#benefits" class="hover:text-blue-400 transition duration-300">Benefits</a>
+                    <a href="#faq" class="hover:text-blue-400 transition duration-300">FAQ</a>
+                    <a href="#contact" class="hover:text-blue-400 transition duration-300">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative min-h-screen flex items-center justify-center px-6 py-24 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
+            <div class="absolute inset-0 bg-grid-pattern opacity-5"></div>
+            <div class="container mx-auto text-center z-10">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+                    Best Web Agency In Sydney
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto">
+                    Grow your business with clicks - Professional web development solutions that drive results
+                </p>
+                <a href="https://fixrr.online" class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition duration-300 shadow-lg hover:shadow-blue-500/25">
+                    Get Started Today
+                </a>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-24 px-6 bg-gray-800">
+            <div class="container mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Powerful Features</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    <div class="bg-gray-900 p-8 rounded-xl hover:transform hover:scale-105 transition duration-300 shadow-lg hover:shadow-blue-500/10">
+                        <div class="w-16 h-16 bg-blue-500/20 rounded-lg flex items-center justify-center mb-6">
+                            <svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Easy to Use</h3>
+                        <p class="text-gray-400">Intuitive interfaces and user-friendly designs that make website management a breeze.</p>
+                    </div>
+
+                    <div class="bg-gray-900 p-8 rounded-xl hover:transform hover:scale-105 transition duration-300 shadow-lg hover:shadow-blue-500/10">
+                        <div class="w-16 h-16 bg-blue-500/20 rounded-lg flex items-center justify-center mb-6">
+                            <svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Responsive Design</h3>
+                        <p class="text-gray-400">Perfectly optimized websites that look stunning on all devices and screen sizes.</p>
+                    </div>
+
+                    <div class="bg-gray-900 p-8 rounded-xl hover:transform hover:scale-105 transition duration-300 shadow-lg hover:shadow-blue-500/10">
+                        <div class="w-16 h-16 bg-blue-500/20 rounded-lg flex items-center justify-center mb-6">
+                            <svg class="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-semibold mb-4">Fast Loading</h3>
+                        <p class="text-gray-400">Lightning-fast performance optimized for the best user experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section id="benefits" class="py-24 px-6 bg-gray-900">
+            <div class="container mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Why Choose Us</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                    <div class="bg-gray-800 p-8 rounded-xl">
+                        <h3 class="text-xl font-semibold mb-4">Save Time</h3>
+                        <p class="text-gray-400">Streamlined development process that gets your website up and running quickly.</p>
+                    </div>
+                    <div class="bg-gray-800 p-8 rounded-xl">
+                        <h3 class="text-xl font-semibold mb-4">Increase Conversions</h3>
+                        <p class="text-gray-400">Optimized for maximum engagement and higher conversion rates.</p>
+                    </div>
+                    <div class="bg-gray-800 p-8 rounded-xl">
+                        <h3 class="text-xl font-semibold mb-4">Professional Look</h3>
+                        <p class="text-gray-400">Premium designs that establish credibility and trust with your audience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="py-24 px-6 bg-gray-800">
+            <div class="container mx-auto max-w-4xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
+                <div class="space-y-6">
+                    <div class="bg-gray-900 rounded-lg p-6">
+                        <h3 class="text-lg font-semibold mb-3">How long does it take to build a website?</h3>
+                        <p class="text-gray-400">Typically 2-4 weeks depending on the project scope and complexity.</p>
+                    </div>
+                    <div class="bg-gray-900 rounded-lg p-6">
+                        <h3 class="text-lg font-semibold mb-3">Do you provide ongoing support?</h3>
+                        <p class="text-gray-400">Yes, we offer various maintenance and support packages to keep your website running smoothly.</p>
+                    </div>
+                    <div class="bg-gray-900 rounded-lg p-6">
+                        <h3 class="text-lg font-semibold mb-3">What about SEO?</h3>
+                        <p class="text-gray-400">All our websites are built with SEO best practices in mind and can be further optimized based on your needs.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-24 px-6 bg-gradient-to-r from-blue-600 to-purple-600">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Grow Your Business?</h2>
+                <p class="text-xl mb-12 max-w-2xl mx-auto">Take the first step towards a stronger online presence today.</p>
+                <a href="https://fixrr.online" class="inline-block bg-white text-blue-600 font-semibold px-8 py-4 rounded-lg transform hover:scale-105 transition duration-300 shadow-lg">
+                    Get Started Now
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 border-t border-gray-800 py-12 px-6">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">SydneyWeb</h3>
+                    <p class="text-gray-400">Professional web development services in Sydney.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Contact</h4>
+                    <p class="text-gray-400">contact@example.com</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Links</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-blue-400 transition duration-300">About</a></li>
+                        <li><a href="#" class="hover:text-blue-400 transition duration-300">Services</a></li>
+                        <li><a href="#" class="hover:text-blue-400 transition duration-300">Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Legal</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-blue-400 transition duration-300">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:text-blue-400 transition duration-300">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
+                <p>&copy; 2024 SydneyWeb. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
